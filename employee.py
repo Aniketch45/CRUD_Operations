@@ -9,5 +9,5 @@ class Employee:
         return (self.id, self.name, self.sal, self.dept)
 
 if(__name__ == '__main__'):
-    e = Employee('101', 'Akash', 50000, 'Software developer')
+    e = Employee('202', 'Amit', 60000, 'Android Developer')
     print(e.toTuple())

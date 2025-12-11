@@ -100,18 +100,18 @@ if(__name__ == '__main__'):
     from employee import Employee
     ds = Datastore()
 
-    eObj = Employee('101', 'Yash', 35000, 'Developer')
+    eObj = Employee('201', 'Ramesh', 95000, 'Testing')
     ds.addData(eObj)
-    # eObj = Employee('102', 'Aniket', 45000, 'Testing')
+    # eObj = Employee('203', 'Aniket', 55000, 'Developer')
     # ds.addData(eObj)
 
     # print(ds.getData())
 
-    eObj = Employee('101', 'Yashraj', 45000, 'Sw developer')
+    eObj = Employee('206', 'Rohit', 80000, 'Sw developer')
     print(ds.updData(eObj))
     # print(ds.getData())
 
-    # ds.delData('101')
+    # ds.delData('203')
     # print(ds.getData())
 
     print(ds.searchData('101'))
