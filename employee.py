@@ -10,4 +10,5 @@ class Employee:
 
 if(__name__ == '__main__'):
     e = Employee('202', 'Amit', 60000, 'Android Developer')
+    e= Employee('204', "Arohi", 80000, "Human Resource" )
     print(e.toTuple())
